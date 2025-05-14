@@ -20,5 +20,5 @@
 
 public protocol EventProtocol {
     var name: String { get }
-    var parameters: [String: Any]? { get }
+    var properties: [String: String] { get }
 }
